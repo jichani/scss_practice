@@ -1,0 +1,6 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+div {
+  @include box($main-color);
+}
