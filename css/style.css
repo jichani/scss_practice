@@ -1,0 +1,19 @@
+.one {
+  color: white;
+  background-color: tomato;
+  width: 100px;
+  height: 25px;
+}
+.one:hover {
+  background-color: orange;
+}
+
+.two {
+  color: red;
+  background-color: teal;
+  width: 100px;
+  height: 25px;
+}
+.two:hover {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

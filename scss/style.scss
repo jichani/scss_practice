@@ -1,0 +1,23 @@
+@mixin btn-style($hv-color) {
+  @content;
+  width: 100px;
+  height: 25px;
+
+  &:hover {
+    background-color: $hv-color;
+  }
+}
+
+.one {
+  @include btn-style(orange) {
+    color: white;
+    background-color: tomato;
+  }
+}
+
+.two {
+  @include btn-style(green) {
+    color: red;
+    background-color: teal;
+  }
+}
